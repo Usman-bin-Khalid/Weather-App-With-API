@@ -11,7 +11,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Theme.of(context).primaryColor,
       body: SafeArea(
         child: Padding(
           padding: EdgeInsets.symmetric(vertical: 40),
@@ -22,7 +22,7 @@ class _SplashScreenState extends State<SplashScreen> {
                   'Discover The\nWeather In Your City',
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    color: Colors.white,
+                    color: Theme.of(context).colorScheme.secondary,
                     fontSize: 32,
                     fontWeight: FontWeight.w800,
                     letterSpacing: -0.5,
@@ -40,7 +40,7 @@ class _SplashScreenState extends State<SplashScreen> {
                   'Get to know your weather maps and\nradar receptions forecast',
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    color: Colors.white,
+                    color: Theme.of(context).colorScheme.secondary,
                     fontSize: 17,
                     fontWeight: FontWeight.w400,
                   ),
@@ -58,7 +58,10 @@ class _SplashScreenState extends State<SplashScreen> {
                   onPressed: () {},
                   child: Text(
                     "Get Started",
-                    style: TextStyle(fontSize: 18, color: Colors.white),
+                    style: TextStyle(
+                      fontSize: 18,
+                      color: Theme.of(context).colorScheme.secondary,
+                    ),
                   ),
                 ),
               ),
