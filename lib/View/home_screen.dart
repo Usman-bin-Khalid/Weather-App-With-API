@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:intl/intl.dart';
 import 'package:weather_app/Provider/theme_provider.dart';
 import 'package:weather_app/Service/api_service.dart';
+import 'package:weather_app/View/weekly_forecast.dart';
 
 class WeatherAppHomeScreen extends ConsumerStatefulWidget {
   const WeatherAppHomeScreen({super.key});
@@ -325,7 +326,19 @@ class _WeatherAppHomeScreenState extends ConsumerState<WeatherAppHomeScreen> {
                                   ),
                                 ),
                                 GestureDetector(
-                                  onTap: () {},
+                                  onTap: () {
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) => WeeklyForecast(
+                                          city: city,
+                                          currentValue: currentValue,
+                                          pastWeek: pastWeek,
+                                          next7days: next7days,
+                                        ),
+                                      ),
+                                    );
+                                  },
                                   child: Text(
                                     "Weekely Forecast",
                                     style: TextStyle(
