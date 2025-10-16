@@ -25,8 +25,7 @@ This application goes beyond basic forecasts, providing all the critical informa
 Showcase the beauty and functionality of your app here. Make sure to include images of the Light theme, Dark theme, and the weekly forecast screen!
 
 <p align="center">
-  <img src="![1](https://github.com/user-attachments/assets/4d54b58b-6798-453f-81b8-2c809255f48d)
-" alt="Light Theme Home Screen" width="350" height="250" style="margin-right: 15px;">
+  <img src="![1](https://github.com/user-attachments/assets/b1bab61d-0256-4cdc-a407-1cd432d25ac0)" alt="Light Theme Home Screen" width="350" height="250" style="margin-right: 15px;">
 </p>
 
 ## ⬇️ Download & Installation
