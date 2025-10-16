@@ -23,7 +23,7 @@ class MyApp extends ConsumerWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       
-      home: const ThemeColors(),
+      home: const SplashScreen(),
     );
   }
 }
