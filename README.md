@@ -32,10 +32,10 @@ The fastest way to experience the app is to download the pre-compiled applicatio
 
 | Platform | Download Link |
 | :---: | :---: |
-| **Android APK** | [![Download APK](https://img.shields.io/badge/DOWNLOAD%20APP-4285F4?style=for-the-badge&logo=android&logoColor=white)](YOUR_APK_DOWNLOAD_LINK_HERE) |
+| **Android APK** | [![Download APK](https://img.shields.io/badge/DOWNLOAD%20APP-4285F4?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Usman-bin-Khalid/Weather-App-With-API/releases/download/Weather_App/app-release.apk) |
 | **Other** | Coming Soon |
 
-> **⚠️ Note:** Please replace `YOUR_APK_DOWNLOAD_LINK_HERE` with the direct link to your compiled APK or GitHub release asset.
+> **✅ Note:** Tap the **DOWNLOAD APP** button above to instantly get the latest Android APK.
 
 ***
 
