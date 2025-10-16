@@ -145,7 +145,9 @@ class _WeatherAppHomeScreenState extends ConsumerState<WeatherAppHomeScreen> {
           children: [
             SizedBox(height: 20),
             if (isLoading)
-              const Center(child: CircularProgressIndicator())
+               Center(child: CircularProgressIndicator(
+                backgroundColor:  Theme.of(context).colorScheme.secondary,
+              ))
             else ...[
               if (currentValue.isNotEmpty)
                 Column(
@@ -233,7 +235,7 @@ class _WeatherAppHomeScreenState extends ConsumerState<WeatherAppHomeScreen> {
                               crossAxisAlignment: CrossAxisAlignment.center,
                               children: [
                                 Image.asset(
-                                  "assets/images/wind.png",
+                                  "assets/images/wind_img.png",
                                   width: 30,
                                   height: 30,
                                 ),

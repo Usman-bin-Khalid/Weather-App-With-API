@@ -12,3 +12,4 @@ class ThemeNotifier extends Notifier<ThemeMode> {
 final themeNotifierProvider = NotifierProvider<ThemeNotifier, ThemeMode>(() => 
 ThemeNotifier()
 );
+

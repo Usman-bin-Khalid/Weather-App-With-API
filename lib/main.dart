@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:weather_app/Provider/theme_provider.dart';
 import 'package:weather_app/Theme/theme.dart';
 import 'package:weather_app/View/splash_screen.dart';
+import 'package:weather_app/View/theme_colors.dart';
 
 void main() {
   runApp(ProviderScope(child: const MyApp()));
@@ -22,7 +23,7 @@ class MyApp extends ConsumerWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       
-      home: const SplashScreen(),
+      home: const ThemeColors(),
     );
   }
 }
