@@ -26,8 +26,6 @@ Showcase the beauty and functionality of your app here. Make sure to include ima
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/ef0f058b-66c9-4c94-8e1b-5d5bb7136330" alt="Light Theme Home Screen" width="350" height="250" style="margin-right: 15px;">
-  <img src="YOUR_DARK_THEME_HOURLY_FORECAST_IMAGE_URL_HERE" alt="Dark Theme Hourly Forecast" width="350" height="250" style="margin-right: 15px;">
-  <img src="YOUR_WEEKLY_FORECAST_SCREEN_IMAGE_URL_HERE" alt="Weekly Forecast Screen" width="350" height="250">
 </p>
 
 ## ⬇️ Download & Installation
