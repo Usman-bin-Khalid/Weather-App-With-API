@@ -22,12 +22,8 @@ This application goes beyond basic forecasts, providing all the critical informa
 
 ## 📸 App Screenshots
 
-Showcase the beauty and functionality of your app here. Make sure to include images of the Light theme, Dark theme, and the weekly forecast screen!
-
 <p align="center">
-  ![1](https://github.com/user-attachments/assets/3805e9c3-65a4-4ba0-b4e0-198ee82e6ce3)
-
-  <img src="![1](https://github.com/user-attachments/assets/b1bab61d-0256-4cdc-a407-1cd432d25ac0)" alt="Light Theme Home Screen" width="350" height="250" style="margin-right: 15px;">
+  <img src="https://github.com/user-attachments/assets/3805e9c3-65a4-4ba0-b4e0-198ee82e6ce3" alt="SkyCast App Screenshots" width="350" height="250">
 </p>
 
 ## ⬇️ Download & Installation
