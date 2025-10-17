@@ -13,3 +13,4 @@ final themeNotifierProvider = NotifierProvider<ThemeNotifier, ThemeMode>(() =>
 ThemeNotifier()
 );
 
+

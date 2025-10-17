@@ -146,7 +146,7 @@ class _WeatherAppHomeScreenState extends ConsumerState<WeatherAppHomeScreen> {
             SizedBox(height: 20),
             if (isLoading)
                Center(child: CircularProgressIndicator(
-                backgroundColor:  Theme.of(context).colorScheme.secondary,
+                color:  Theme.of(context).colorScheme.secondary,
               ))
             else ...[
               if (currentValue.isNotEmpty)
